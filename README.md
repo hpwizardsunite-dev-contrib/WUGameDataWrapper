@@ -12,7 +12,7 @@ TODO
 
 mvn clean install
 
-F:\PotterBattler\WUGameDataWrapper>java -cp target/gameDataWrapper-0.6.0-SNAPSHOT.jar org.wuprotos.wrappers.GenerateJSON [GameDataWrapper.bytes file location]
+java -cp target/gameDataWrapper-0.6.0-SNAPSHOT.jar org.wuprotos.wrappers.GenerateJSON [GameDataWrapper.bytes file location]
 
 ```
 
