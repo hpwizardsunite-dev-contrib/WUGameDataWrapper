@@ -35,6 +35,7 @@ public class GenerateJSON {
 		try (FileOutputStream fos = new FileOutputStream(outputFile)) {
 			reader.writeJSON(response, fos);
 		}
+		System.out.println(outputFile.getCanonicalPath() + " written successfully");
 
 		versionDir = new File(baseDir, Long.toString(version));
 		versionDir.mkdirs();
@@ -43,12 +44,18 @@ public class GenerateJSON {
 		try (FileOutputStream fos = new FileOutputStream(outputFile)) {
 			reader.writeJSON(response, fos);
 		}
+		System.out.println(outputFile.getCanonicalPath() + " written successfully");
+
 	}
 	public void writeBin(File f) throws IOException {
 		File outputFile = new File(latestDir, f.getName());
 		Files.copy(f.toPath(), outputFile.toPath() , StandardCopyOption.REPLACE_EXISTING);
+		System.out.println(outputFile.getCanonicalPath() + " written successfully");
+
 		outputFile = new File(versionDir, f.getName());
 		Files.copy(f.toPath(), outputFile.toPath() , StandardCopyOption.REPLACE_EXISTING);
+		System.out.println(outputFile.getCanonicalPath() + " written successfully");
+
 	}
 
 	public static void main(String[] args) throws Exception {
@@ -64,6 +71,7 @@ public class GenerateJSON {
 		try (FileInputStream is = new FileInputStream(f)) {
 			gen.writeJSON(is);
 		}
+		gen.writeBin(f);
 
 	}
 
