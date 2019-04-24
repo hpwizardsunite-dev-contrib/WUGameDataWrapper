@@ -2,7 +2,7 @@ package org.wuprotos.wrappers;
 
 
 import WUProtos.Data.GameDataWrapperOuterClass;
-import wuprotos.GameDataWrapperReader;
+import org.wuprotos.protos.GameDataWrapperReader;
 
 import java.io.*;
 import java.nio.file.Files;
