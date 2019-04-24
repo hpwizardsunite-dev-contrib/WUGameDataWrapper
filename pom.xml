@@ -43,13 +43,13 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
-        <gamemaster.version>0.6.0</gamemaster.version>
+        <gamemaster.version>0.6.1</gamemaster.version>
     </properties>
 
     <dependencies>
         <dependency>
-            <groupId>com.pokebattler</groupId>
-            <artifactId>WUProtos</artifactId>
+            <groupId>com.pokebattler.wu</groupId>
+            <artifactId>wuprotos</artifactId>
             <version>${gamemaster.version}</version>
         </dependency>
     </dependencies>
