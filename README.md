@@ -1,4 +1,4 @@
-﻿WUGameDataWrapper [![Build Status](https://travis-ci.org/hpwizardsunite-dev-contrib/WUGameDataWrapper.svg?branch=master)](https://travis-ci.org/hpwizardsunite-dev-contrib/WUGameDataWrapper)
+# WUGameDataWrapper [![Build Status](https://travis-ci.org/hpwizardsunite-dev-contrib/WUGameDataWrapper.svg?branch=master)](https://travis-ci.org/hpwizardsunite-dev-contrib/WUGameDataWrapper)
 
 # GameDataWrapper 
 
