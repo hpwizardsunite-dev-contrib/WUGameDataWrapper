@@ -63160,95 +63160,95 @@
     }
   }, {
     "spell": {
-      "chargeUpEffect": ["proto_spell_accio"]
+      "id": "proto_spell_accio"
     }
   }, {
     "spell": {
-      "chargeUpEffect": ["proto_spell_aguamenti"]
+      "id": "proto_spell_aguamenti"
     }
   }, {
     "spell": {
-      "chargeUpEffect": ["proto_spell_alohomora"]
+      "id": "proto_spell_alohomora"
     }
   }, {
     "spell": {
-      "chargeUpEffect": ["proto_spell_arrestomomentum"]
+      "id": "proto_spell_arrestomomentum"
     }
   }, {
     "spell": {
-      "chargeUpEffect": ["proto_spell_arrestomomentum_tutorial"]
+      "id": "proto_spell_arrestomomentum_tutorial"
     }
   }, {
     "spell": {
-      "chargeUpEffect": ["proto_spell_bombarda"]
+      "id": "proto_spell_bombarda"
     }
   }, {
     "spell": {
-      "chargeUpEffect": ["proto_spell_combat_01"]
+      "id": "proto_spell_combat_01"
     }
   }, {
     "spell": {
-      "chargeUpEffect": ["proto_spell_combat_02"]
+      "id": "proto_spell_combat_02"
     }
   }, {
     "spell": {
-      "chargeUpEffect": ["proto_spell_combat_03"]
+      "id": "proto_spell_combat_03"
     }
   }, {
     "spell": {
-      "chargeUpEffect": ["proto_spell_combat_04"]
+      "id": "proto_spell_combat_04"
     }
   }, {
     "spell": {
-      "chargeUpEffect": ["proto_spell_combat_05"]
+      "id": "proto_spell_combat_05"
     }
   }, {
     "spell": {
-      "chargeUpEffect": ["proto_spell_combat_06"]
+      "id": "proto_spell_combat_06"
     }
   }, {
     "spell": {
-      "chargeUpEffect": ["proto_spell_combat_stupefy"]
+      "id": "proto_spell_combat_stupefy"
     }
   }, {
     "spell": {
-      "chargeUpEffect": ["proto_spell_diffindo"]
+      "id": "proto_spell_diffindo"
     }
   }, {
     "spell": {
-      "chargeUpEffect": ["proto_spell_diffindo_tutorial"]
+      "id": "proto_spell_diffindo_tutorial"
     }
   }, {
     "spell": {
-      "chargeUpEffect": ["proto_spell_ebublio"]
+      "id": "proto_spell_ebublio"
     }
   }, {
     "spell": {
-      "chargeUpEffect": ["proto_spell_expectopatronum"]
+      "id": "proto_spell_expectopatronum"
     }
   }, {
     "spell": {
-      "chargeUpEffect": ["proto_spell_finite"]
+      "id": "proto_spell_finite"
     }
   }, {
     "spell": {
-      "chargeUpEffect": ["proto_spell_flipendo"]
+      "id": "proto_spell_flipendo"
     }
   }, {
     "spell": {
-      "chargeUpEffect": ["proto_spell_incendio"]
+      "id": "proto_spell_incendio"
     }
   }, {
     "spell": {
-      "chargeUpEffect": ["proto_spell_meteolojinxrecanto"]
+      "id": "proto_spell_meteolojinxrecanto"
     }
   }, {
     "spell": {
-      "chargeUpEffect": ["proto_spell_riddikulus"]
+      "id": "proto_spell_riddikulus"
     }
   }, {
     "spell": {
-      "chargeUpEffect": ["proto_spell_rng"]
+      "id": "proto_spell_rng"
     }
   }, {
     "deepLink": {
