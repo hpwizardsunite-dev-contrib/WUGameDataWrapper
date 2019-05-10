@@ -1,6 +1,5 @@
-# WUGameDataWrapper [![Build Status](https://travis-ci.org/hpwizardsunite-dev-contrib/WUGameDataWrapper.svg?branch=master)](https://travis-ci.org/hpwizardsunite-dev-contrib/WUGameDataWrapper)
+# WUGameDataWrapper [![Build Status](https://travis-ci.org/hpwizardsunite-dev-contrib/WUGameDataWrapper.svg?branch=master)](https://travis-ci.org/hpwizardsunite-dev-contrib/WUGameDataWrapper) [![Discord](https://img.shields.io/badge/Discord-Online-blue.svg)](https://discord.gg/mFH2D34)
 
-# GameDataWrapper 
 
 This repository is collection of the decoded Harry Potter Wizards Unite Game Data Wrapper protobuf files
 
