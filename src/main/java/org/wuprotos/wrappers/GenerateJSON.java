@@ -1,16 +1,13 @@
 package org.wuprotos.wrappers;
 
-
-import WUProtos.Data.GameDataWrapperOuterClass;
-import org.wuprotos.protos.GameDataWrapperReader;
+import WUProtos.Data.*;
+import org.wuprotos.protos.*;
 
 import java.io.*;
-import java.nio.file.Files;
-import java.nio.file.StandardCopyOption;
-
+import java.nio.file.*;
 
 public class GenerateJSON {
-	String OUTPUT_FILE_NAME="GameDataWrapper.json";
+	String OUTPUT_FILE_NAME = "GameDataWrapper.json";
 
 	GameDataWrapperReader reader;
 	File baseDir;
@@ -19,7 +16,7 @@ public class GenerateJSON {
 
 	public GenerateJSON() {
 		reader = new GameDataWrapperReader();
-		baseDir = new File ("versions");
+		baseDir = new File("versions");
 		latestDir = new File(baseDir, "latest");
 		latestDir.mkdirs();
 
@@ -47,21 +44,22 @@ public class GenerateJSON {
 		System.out.println(outputFile.getCanonicalPath() + " written successfully");
 
 	}
+
 	public void writeBin(File f) throws IOException {
 		File outputFile = new File(latestDir, f.getName());
-		Files.copy(f.toPath(), outputFile.toPath() , StandardCopyOption.REPLACE_EXISTING);
+		Files.copy(f.toPath(), outputFile.toPath(), StandardCopyOption.REPLACE_EXISTING);
 		System.out.println(outputFile.getCanonicalPath() + " written successfully");
 
 		outputFile = new File(versionDir, f.getName());
-		Files.copy(f.toPath(), outputFile.toPath() , StandardCopyOption.REPLACE_EXISTING);
+		Files.copy(f.toPath(), outputFile.toPath(), StandardCopyOption.REPLACE_EXISTING);
 		System.out.println(outputFile.getCanonicalPath() + " written successfully");
 
 	}
 
 	public static void main(String[] args) throws Exception {
 		GenerateJSON gen = new GenerateJSON();
-		if (args.length != 1 ) {
-			System.err.println("USAGE: java -jar pokemongo-game-master-2.15.0.jar BINARY_INPUT_FILE");
+		if (args.length != 1) {
+			System.err.println("USAGE: java -jar gameDataWrapper-0.6.0-SNAPSHOT.jar BINARY_INPUT_FILE");
 			return;
 		}
 		File f = new File(args[0]);
@@ -74,5 +72,4 @@ public class GenerateJSON {
 		gen.writeBin(f);
 
 	}
-
 }
