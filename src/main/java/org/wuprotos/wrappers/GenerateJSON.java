@@ -70,6 +70,5 @@ public class GenerateJSON {
 			gen.writeJSON(is);
 		}
 		gen.writeBin(f);
-
 	}
 }
